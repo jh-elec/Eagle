@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Mechanical" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Gehäuse" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Mittellin" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="Stiffner" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="Beschreib" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="BGA-Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="BD-Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="Maße" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="OrgLBR" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;b&gt;Artikelnummer:&lt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;#Beschreibung !: keine feste Artikelnummer vorhanden / Atikel nicht lagermäßig vorhanden!
+&lt;br&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;***UPDATE***  Datum :  09.02.2014  11:32:42
+&lt;br&gt;
+&lt;br&gt;
+--&gt;Bauteil angelegt
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;
+generated by Eagle Description Tool
+&lt;br&gt;
+erstellt von:  Jan Homann</description>
+<packages>
+<package name="KZH20P">
+<wire x1="-4.55" y1="-2.5" x2="4.45" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="10.45" y1="3.5" x2="10.45" y2="14.5" width="0.127" layer="21"/>
+<wire x1="-10.55" y1="14.5" x2="-10.55" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-3.55" y1="15.5" x2="3.45" y2="15.5" width="0.127" layer="21" curve="147.486631"/>
+<wire x1="10.45" y1="14.5" x2="3.449959375" y2="15.5000125" width="0.127" layer="21" curve="163.739689"/>
+<wire x1="-3.55" y1="15.5" x2="-10.55" y2="14.5" width="0.127" layer="21" curve="161.730072"/>
+<wire x1="-10.55" y1="3.5" x2="-4.55" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="4.45" y1="-2.5" x2="10.45" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-5.55" y1="2.5" x2="-3.55" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3.55" y1="2.5" x2="-3.55" y2="10.5" width="0.127" layer="21"/>
+<wire x1="-3.55" y1="10.5" x2="-5.55" y2="10.5" width="0.127" layer="21"/>
+<wire x1="-5.55" y1="10.5" x2="-5.55" y2="2.5" width="0.127" layer="21"/>
+<wire x1="3.45" y1="10.5" x2="3.45" y2="2.5" width="0.127" layer="21"/>
+<wire x1="3.45" y1="2.5" x2="5.45" y2="2.5" width="0.127" layer="21"/>
+<wire x1="5.45" y1="2.5" x2="5.45" y2="10.5" width="0.127" layer="21"/>
+<wire x1="5.45" y1="10.5" x2="3.45" y2="10.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="14.5" x2="8.5" y2="14.5" width="1" layer="21"/>
+<wire x1="7.5" y1="15.5" x2="7.5" y2="14.5" width="1" layer="21"/>
+<wire x1="7.5" y1="14.5" x2="7.5" y2="13.5" width="1" layer="21"/>
+<wire x1="-7.5" y1="15.5" x2="-7.5" y2="13.5" width="1" layer="21"/>
+<wire x1="-8.5" y1="14.5" x2="-6.5" y2="14.5" width="1" layer="21"/>
+<wire x1="7.5" y1="14.5" x2="6.5" y2="14.5" width="1" layer="21"/>
+<smd name="MINUS" x="-0.075" y="6.5" dx="10" dy="10" layer="1"/>
+<pad name="VCC@1" x="-10.5" y="6.5" drill="1.9" diameter="4"/>
+<pad name="VCC@2" x="10.35" y="6.5" drill="1.9" diameter="4"/>
+<text x="-10.16" y="19.05" size="1.778" layer="25">&gt;NAME</text>
+<text x="-10.16" y="-5.08" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="15.33.632">
+<wire x1="-21.8" y1="-29.29" x2="-21.8" y2="26.99" width="0.8128" layer="21"/>
+<wire x1="-21.8" y1="26.99" x2="25.4" y2="26.99" width="0.8128" layer="21"/>
+<wire x1="25.4" y1="26.99" x2="25.5" y2="26.59" width="0.127" layer="22"/>
+<wire x1="25.5" y1="26.59" x2="25.5" y2="-29.3" width="0.8128" layer="21"/>
+<wire x1="7.62" y1="26.67" x2="10.16" y2="26.67" width="0.127" layer="22"/>
+<wire x1="10.16" y1="26.67" x2="10.16" y2="-29.3" width="0.8128" layer="21"/>
+<wire x1="-7.32" y1="26.77" x2="-7.32" y2="-29.28" width="0.8128" layer="21"/>
+<circle x="0.635" y="22.225" radius="4.4901" width="0.3048" layer="21"/>
+<circle x="0.635" y="21.59" radius="3.7026" width="0.3048" layer="21"/>
+<circle x="0.635" y="20.955" radius="2.8398" width="0.3048" layer="21"/>
+<circle x="0.635" y="20.955" radius="1.905" width="0.3048" layer="21"/>
+<circle x="0.635" y="20.32" radius="1.4199" width="0.3048" layer="21"/>
+<circle x="17.145" y="-24.765" radius="4.4901" width="0.3048" layer="21"/>
+<circle x="17.145" y="-24.13" radius="3.7026" width="0.3048" layer="21"/>
+<circle x="17.145" y="-23.495" radius="2.8398" width="0.3048" layer="21"/>
+<circle x="17.145" y="-23.495" radius="1.905" width="0.3048" layer="21"/>
+<circle x="17.145" y="-22.86" radius="1.4199" width="0.3048" layer="21"/>
+<circle x="-14.605" y="-24.765" radius="4.4901" width="0.3048" layer="21"/>
+<circle x="-14.605" y="-24.13" radius="3.7026" width="0.3048" layer="21"/>
+<circle x="-14.605" y="-23.495" radius="2.8398" width="0.3048" layer="21"/>
+<circle x="-14.605" y="-23.495" radius="1.905" width="0.3048" layer="21"/>
+<circle x="-14.605" y="-22.86" radius="1.4199" width="0.3048" layer="21"/>
+<circle x="17.78" y="24.13" radius="1.27" width="3.81" layer="21"/>
+<circle x="1.27" y="-26.035" radius="1.27" width="3.81" layer="21"/>
+<circle x="-14.605" y="24.13" radius="1.27" width="3.81" layer="21"/>
+<pad name="+" x="16.4" y="25.29" drill="1.2" diameter="2.54" rot="R180"/>
+<pad name="-" x="3.3" y="25.29" drill="1.2" diameter="2.54" rot="R180"/>
+<pad name="GND@2" x="17.5" y="-0.21" drill="3.2" diameter="6.4516" rot="R180"/>
+<pad name="GND@1" x="-13.8" y="-0.21" drill="3.2" diameter="6.4516" rot="R180"/>
+<text x="2.54" y="16.51" size="3.81" layer="21" ratio="20" rot="MR0">_</text>
+<text x="19.05" y="-16.51" size="3.81" layer="22" ratio="20" rot="MR0">_</text>
+<text x="-12.7" y="-16.51" size="3.81" layer="22" ratio="20" rot="MR0">_</text>
+<text x="19.05" y="13.97" size="3.81" layer="21" ratio="20" rot="MR0">+</text>
+<text x="-12.7" y="13.97" size="3.81" layer="21" ratio="20" rot="MR0">+</text>
+<text x="2.54" y="-19.05" size="3.81" layer="22" ratio="20" rot="MR0">+</text>
+<text x="3.81" y="-5.08" size="1.778" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-1.27" y="-5.08" size="1.778" layer="25" rot="R90">&gt;NAME</text>
+<hole x="17.5" y="-0.21" drill="3.2"/>
+<hole x="-13.8" y="-0.21" drill="3.2"/>
+<wire x1="25.5" y1="-29.3" x2="-21.8" y2="-29.3" width="0.8128" layer="21"/>
+</package>
+<package name="1043">
+<pad name="-" x="-25.4" y="0" drill="1.3" shape="square"/>
+<pad name="+" x="46.24" y="0" drill="1.3"/>
+<hole x="46.2" y="-8" drill="2.4"/>
+<hole x="38.2" y="7.97" drill="3.5"/>
+<hole x="-17.42" y="-8" drill="3.5"/>
+<wire x1="-28.16" y1="-10.33" x2="26.87" y2="-10.33" width="0.6096" layer="21"/>
+<wire x1="26.87" y1="-10.33" x2="48.89" y2="-10.31" width="0.6096" layer="21"/>
+<wire x1="48.89" y1="-10.31" x2="48.89" y2="10.32" width="0.6096" layer="21"/>
+<wire x1="48.89" y1="10.32" x2="-28.16" y2="10.32" width="0.6096" layer="21"/>
+<wire x1="-28.16" y1="10.32" x2="-28.16" y2="-10.33" width="0.6096" layer="21"/>
+<wire x1="46.74" y1="0.07" x2="46.74" y2="-0.1" width="0" layer="108"/>
+<text x="-12.7" y="6.35" size="2.54" layer="21">KEYSTONE ELECTRONICS</text>
+<text x="-12.7" y="-8.89" size="2.54" layer="21">SMT = P/N 1042 THM = 1043</text>
+<wire x1="44.15" y1="4.51" x2="-23.16" y2="4.51" width="0.6096" layer="21"/>
+<wire x1="-23.16" y1="4.51" x2="-23.16" y2="-4.38" width="0.6096" layer="21"/>
+<wire x1="-23.16" y1="-4.38" x2="44.15" y2="-4.38" width="0.6096" layer="21"/>
+<wire x1="44.15" y1="-4.38" x2="44.15" y2="4.51" width="0.6096" layer="21"/>
+<rectangle x1="-23.16" y1="-1.84" x2="-21.89" y2="1.97" layer="21"/>
+<rectangle x1="42.88" y1="-1.84" x2="44.15" y2="1.97" layer="21"/>
+<text x="-27.94" y="-13.97" size="1.778" layer="27">&gt;VALUE</text>
+<text x="-27.94" y="11.43" size="1.778" layer="25">&gt;NAME</text>
+<text x="39.37" y="-1.905" size="3.81" layer="21">+</text>
+<text x="-21.59" y="-1.27" size="3.81" layer="21">-</text>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="-10.16" width="0.127" layer="21"/>
+<rectangle x1="-27.94" y1="-10.16" x2="-25.4" y2="10.16" layer="21"/>
+<wire x1="46.14" y1="-10.23" x2="46.14" y2="10.09" width="0.127" layer="21"/>
+<rectangle x1="46.14" y1="-10.23" x2="48.68" y2="10.09" layer="21" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BATTERY">
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="1.016" layer="94"/>
+<wire x1="4.318" y1="1.016" x2="6.858" y2="1.016" width="0.254" layer="94"/>
+<wire x1="5.588" y1="2.286" x2="5.588" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<pin name="VCC" x="0" y="2.54" length="short" rot="R270"/>
+<pin name="GND" x="0" y="-5.08" length="short" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="KEYSTONE" prefix="B">
+<description>&lt;b&gt;Name des Bauteiles:&lt;b/&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;Batteriehalter für CR2032 (Knopfzelle) Batterien
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Daten:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;SMD
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Artikelnummer:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;#keine feste Artikelnummer vorhanden / Atikel nicht lagermäßig vorhanden!
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Datenblatt:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;www.alldatasheet.com
+&lt;br&gt;
+&lt;bf&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;
+generated by Eagle Description Tool
+&lt;br&gt;
+am :   09.02.2014   11:32:23
+&lt;br&gt;
+erstellt von:  Jan Homann</description>
+<gates>
+<gate name="G$1" symbol="BATTERY" x="-3.048" y="-5.842"/>
+</gates>
+<devices>
+<device name="KZH20P" package="KZH20P">
+<connects>
+<connect gate="G$1" pin="GND" pad="MINUS"/>
+<connect gate="G$1" pin="VCC" pad="VCC@1 VCC@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1043" package="1043">
+<connects>
+<connect gate="G$1" pin="GND" pad="-"/>
+<connect gate="G$1" pin="VCC" pad="+"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ETTINGER" prefix="B">
+<description>&lt;b&gt;Name des Bauteiles:&lt;b/&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;Batteriehalter für 3 x Mignon 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Daten:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;Leiterplattenmontage, z.B. Ettinger Elek.: 15.33.632
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Artikelnummer:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;#201293
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Datenblatt:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;Siehe Hesch Suche !
+&lt;br&gt;
+&lt;bf&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;
+generated by Eagle Description Tool
+&lt;br&gt;
+am :   09.03.2017   10:04:08
+&lt;br&gt;
+erstellt von:  Hm</description>
+<gates>
+<gate name="G$1" symbol="BATTERY" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="15.33.632">
+<connects>
+<connect gate="G$1" pin="GND" pad="- GND@1 GND@2"/>
+<connect gate="G$1" pin="VCC" pad="+"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

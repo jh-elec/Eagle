@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Mechanical" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Gehäuse" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Mittellin" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="Stiffner" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="Beschreib" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="BGA-Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="BD-Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="OrgLBR" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;b&gt;Artikelnummer:&lt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;#105016
+&lt;br&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;***UPDATE***  Datum :  29.01.2014  07:26:45
+&lt;br&gt;
+&lt;br&gt;
+--&gt;Bauteil angelegt
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;
+generated by Eagle Description Tool
+&lt;br&gt;
+erstellt von:  Hm
+
+
+
+&lt;b&gt;Artikelnummer:&lt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;#105032
+&lt;br&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;***UPDATE***  Datum :  23.01.2014  07:15:25
+&lt;br&gt;
+&lt;br&gt;
+--&gt;Bauteil angelegt
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;
+generated by Eagle Description Tool
+&lt;br&gt;
+erstellt von:  Hm
+
+&lt;b&gt;Artikelnummer:&lt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;#Beschreibung !: 105017
+&lt;br&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;***UPDATE***  Datum :  14.08.2014  08:21:49
+&lt;br&gt;
+&lt;br&gt;
+--&gt;Bauteil angelegt
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;
+generated by Eagle Description Tool
+&lt;br&gt;
+erstellt von:  Wl</description>
+<packages>
+<package name="DO-214AA/SMB">
+<wire x1="-2.2606" y1="1.905" x2="2.2606" y2="1.905" width="0.1016" layer="21"/>
+<wire x1="-2.2606" y1="-1.905" x2="2.2606" y2="-1.905" width="0.1016" layer="21"/>
+<wire x1="-2.2606" y1="-1.905" x2="-2.2606" y2="1.905" width="0.1016" layer="21"/>
+<wire x1="2.2606" y1="-1.905" x2="2.2606" y2="1.905" width="0.1016" layer="21"/>
+<wire x1="0.193" y1="1" x2="-0.83" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.83" y1="0" x2="0.193" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.193" y1="-1" x2="0.193" y2="1" width="0.2032" layer="21"/>
+<smd name="C" x="-2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
+<smd name="A" x="2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
+<text x="-2.159" y="2.159" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.159" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="21"/>
+<rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="21"/>
+<rectangle x1="-1.35" y1="-1.9" x2="-0.8" y2="1.9" layer="21"/>
+</package>
+<package name="SOD123">
+<wire x1="-1.1" y1="0.7" x2="-0.846" y2="0.7" width="0.254" layer="51"/>
+<wire x1="-0.846" y1="0.7" x2="-0.592" y2="0.7" width="0.254" layer="51"/>
+<wire x1="-0.592" y1="0.7" x2="1.1" y2="0.7" width="0.254" layer="51"/>
+<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.254" layer="51"/>
+<wire x1="1.1" y1="-0.7" x2="-0.592" y2="-0.7" width="0.254" layer="51"/>
+<wire x1="-0.592" y1="-0.7" x2="-0.846" y2="-0.7" width="0.254" layer="51"/>
+<wire x1="-0.846" y1="-0.7" x2="-1.1" y2="-0.7" width="0.254" layer="51"/>
+<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.254" layer="51"/>
+<wire x1="-0.846" y1="-0.7" x2="-0.846" y2="0.7" width="0.254" layer="51"/>
+<wire x1="-0.592" y1="-0.7" x2="-0.592" y2="0.7" width="0.254" layer="51"/>
+<rectangle x1="-1.95" y1="-0.45" x2="-1.2" y2="0.4" layer="51"/>
+<rectangle x1="1.2" y1="-0.45" x2="1.95" y2="0.4" layer="51"/>
+<smd name="A" x="1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
+<smd name="C" x="-1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
+<text x="-2.54" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SHOTTKY">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-3.556" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.302" y="-3.683" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="SUPPRESSOR">
+<wire x1="1.27" y1="-2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="-1.016" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-0.635" x2="1.27" y2="-0.635" width="0.254" layer="94"/>
+<text x="-1.905" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.429" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-3.81" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="3.81" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="DIODE">
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<text x="-4.28" y="2.44" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.18" y="-3.98" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SS24" prefix="D">
+<description>&lt;b&gt;Name des Bauteiles:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt; SMD-Schottkydiode SS24
+&lt;hr&gt;
+&lt;b&gt;Daten:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt; Bauform DO-214AA/SMB; 40 V / 2 A
+&lt;hr&gt;
+&lt;b&gt;Artikelnummer:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;#105032
+&lt;hr&gt;
+&lt;b&gt;Datenblatt:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;
+&lt;hr&gt;</description>
+<gates>
+<gate name="G$1" symbol="SHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="R4" package="DO-214AA/SMB">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM6T6V8A" prefix="D">
+<description>&lt;b&gt;Name des Bauteiles:&lt;b/&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;SM6T6V8
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Daten:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;6,8V / 600W / bidirektional
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Artikelnummer:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;#105017
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Datenblatt:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000725.pdf
+&lt;br&gt;
+&lt;bf&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;
+generated by Eagle Description Tool
+&lt;br&gt;
+am :   14.08.2014   08:23:47
+&lt;br&gt;
+erstellt von:  Wl</description>
+<gates>
+<gate name="G$1" symbol="SUPPRESSOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CA" package="DO-214AA/SMB">
+<connects>
+<connect gate="G$1" pin="1" pad="A"/>
+<connect gate="G$1" pin="2" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAS116H" prefix="D">
+<description>&lt;b&gt;Name des Bauteiles:&lt;b/&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;BAS116H
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Daten:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;BAS116H Ultra Low Leakage Diode speziell für die energiesparende Verbindung von Goldcaps mit Echtzeituhren, extrem kleiner Leckstrom
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Artikelnummer:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;#105016
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Datenblatt:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;www.alldatasheet.com
+&lt;br&gt;
+&lt;bf&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;
+generated by Eagle Description Tool
+&lt;br&gt;
+am :   29.01.2014   07:16:55
+&lt;br&gt;
+erstellt von:  Hm</description>
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-115" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

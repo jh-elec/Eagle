@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="help" color="12" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;b&gt;Artikelnummer:&lt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;#keine feste Artikelnummer vorhanden / Atikel nicht lagermäßig vorhanden!
+&lt;br&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;***UPDATE***  Datum :  28.01.2014  09:00:07
+&lt;br&gt;
+&lt;br&gt;
+--&gt;Bauteil angelegt
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;
+generated by Eagle Description Tool
+&lt;br&gt;
+erstellt von:  Hm</description>
+<packages>
+<package name="CC-16-3">
+<smd name="1" x="-1.27" y="1.27" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="2" x="-1.27" y="0.77" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="3" x="-1.27" y="0.27" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="4" x="-1.27" y="-0.23" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="5" x="-1.27" y="-0.73" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="13" x="1.276159375" y="1.27038125" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="12" x="1.276159375" y="0.77038125" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="11" x="1.276159375" y="0.27038125" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="10" x="1.276159375" y="-0.22961875" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="9" x="1.276159375" y="-0.72961875" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="14" x="0.4995125" y="1.52983125" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="-0.0004875" y="1.52983125" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="-0.5004875" y="1.52983125" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="0.500671875" y="-0.979440625" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="0.000671875" y="-0.979440625" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-0.499328125" y="-0.979440625" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<wire x1="1.5524875" y1="1.81743125" x2="-1.5475125" y2="1.81743125" width="0.127" layer="22"/>
+<wire x1="-1.5475125" y1="1.81743125" x2="-1.5475125" y2="-1.28256875" width="0.127" layer="22"/>
+<wire x1="-1.5475125" y1="-1.28256875" x2="1.5524875" y2="-1.28256875" width="0.127" layer="22"/>
+<wire x1="1.5524875" y1="-1.28256875" x2="1.5524875" y2="1.81743125" width="0.127" layer="22"/>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-1.3" y="1.6" radius="0.1" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="IC">
+<pin name="VDD" x="-17.78" y="7.62" length="short"/>
+<pin name="CS" x="22.86" y="-7.62" length="middle" function="dot" rot="R180"/>
+<pin name="SCL/SCLK" x="20.32" y="2.54" length="short" rot="R180"/>
+<pin name="SDA/SDI/SDIO" x="20.32" y="7.62" length="short" rot="R180"/>
+<pin name="SDO/ALT-ADRDRESS" x="20.32" y="-2.54" length="short" rot="R180"/>
+<pin name="GND" x="-17.78" y="-10.16" length="short"/>
+<pin name="INT2" x="-17.78" y="-5.08" length="short"/>
+<pin name="INT1" x="-17.78" y="-2.54" length="short"/>
+<pin name="VS" x="-17.78" y="2.54" length="short"/>
+<wire x1="17.78" y1="10.16" x2="-15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="10.16" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-12.7" x2="17.78" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="17.78" y2="10.16" width="0.254" layer="94"/>
+<text x="-15.38" y="10.82" size="1.9304" layer="95">&gt;Name</text>
+<text x="-15.38" y="-15.38" size="1.9304" layer="95">ADXL344</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ADXL344" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;Name des Bauteiles:&lt;b/&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;ADXL344
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Daten:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;
+ Multipurpose accelerometer with 10- to 13-bit resolution for use in a wide variety of applications 
+Digital output accessible via SPI (3- and 4-wire) and I2C 
+Built-in motion detection features make tap, double-tap, activity, inactivity, orientation, and free-fall detection trivial 
+User-adjustable thresholds 
+Interrupts independently mappable to two interrupt pins 
+Low power operation down to 23 μA and embedded FIFO for reducing overall system power 
+Wide supply and I/O voltage range: 1.7 V to 2.75 V 
+Wide operating temperature range (−40°C to +85°C) 
+10,000 g shock survival 
+Small, thin Pb free, RoHS compliant 3 mm × 3 mm × 0.95 mm LGA package 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Artikelnummer:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;#keine feste Artikelnummer vorhanden / Atikel nicht lagermäßig vorhanden!
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Datenblatt:&lt;b/
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+--&gt;www.alldatasheet.com
+&lt;br&gt;
+&lt;bf&gt;
+&lt;br&gt;
+__________________________________________
+&lt;br&gt;
+generated by Eagle Description Tool
+&lt;br&gt;
+am :   28.01.2014   08:58:48
+&lt;br&gt;
+erstellt von:  Hm</description>
+<gates>
+<gate name="G$1" symbol="IC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="CC-16-3">
+<connects>
+<connect gate="G$1" pin="CS" pad="8"/>
+<connect gate="G$1" pin="GND" pad="16"/>
+<connect gate="G$1" pin="INT1" pad="11"/>
+<connect gate="G$1" pin="INT2" pad="9"/>
+<connect gate="G$1" pin="SCL/SCLK" pad="4"/>
+<connect gate="G$1" pin="SDA/SDI/SDIO" pad="6"/>
+<connect gate="G$1" pin="SDO/ALT-ADRDRESS" pad="7"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VS" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
