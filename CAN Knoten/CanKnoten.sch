@@ -10047,6 +10047,9 @@ Based on the previous libraries:
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="XB1" library="Wannenstiftleisten" deviceset="WSL10" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="LED6" library="led" deviceset="LED" device="SML1206"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="560R"/>
+<part name="P+11" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10190,6 +10193,9 @@ Based on the previous libraries:
 <instance part="XB1" gate=".9" x="-203.2" y="-170.18"/>
 <instance part="XB1" gate=".10" x="-190.5" y="-170.18"/>
 <instance part="GND9" gate="1" x="-220.98" y="78.74"/>
+<instance part="LED6" gate="G$1" x="73.66" y="63.5"/>
+<instance part="R7" gate="G$1" x="73.66" y="73.66" rot="R90"/>
+<instance part="P+11" gate="VCC" x="73.66" y="83.82"/>
 </instances>
 <busses>
 </busses>
@@ -10302,6 +10308,11 @@ Based on the previous libraries:
 <pinref part="K4" gate="G$1" pin="3"/>
 <wire x1="-132.08" y1="-180.34" x2="-104.14" y2="-180.34" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="P+11" gate="VCC" pin="VCC"/>
+<wire x1="73.66" y1="81.28" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10467,6 +10478,11 @@ Based on the previous libraries:
 <wire x1="20.32" y1="38.1" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
 <junction x="20.32" y="40.64"/>
 </segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="(AC4/ADC4)PA4"/>
+<wire x1="-129.54" y1="111.76" x2="-127" y2="111.76" width="0.1524" layer="91"/>
+<label x="-127" y="111.76" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="MCP2515_RXCAN" class="0">
 <segment>
@@ -10526,6 +10542,8 @@ Based on the previous libraries:
 <wire x1="68.58" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
 <label x="76.2" y="58.42" size="1.27" layer="95" xref="yes"/>
 <wire x1="73.66" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
+<junction x="73.66" y="58.42"/>
 </segment>
 </net>
 <net name="MCP2515_TXCAN" class="0">
@@ -11370,6 +11388,13 @@ Based on the previous libraries:
 <pinref part="K4" gate="G$1" pin="10"/>
 <wire x1="-132.08" y1="-198.12" x2="-129.54" y2="-198.12" width="0.1524" layer="91"/>
 <label x="-129.54" y="-198.12" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="LED6" gate="G$1" pin="A"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="68.58" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
