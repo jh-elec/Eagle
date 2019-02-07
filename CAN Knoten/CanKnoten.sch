@@ -8405,6 +8405,32 @@ Copyright: Würth Elektronik</description>
 <wire x1="-5" y1="-1.5" x2="-5" y2="-6" width="0.127" layer="21"/>
 <wire x1="5" y1="-1.5" x2="5" y2="-6" width="0.127" layer="21"/>
 </package>
+<package name="615004144021">
+<description>WR-MJ Vertical Plastic 4P4C Modular Jack With Ears, 4 pins</description>
+<wire x1="-6.985" y1="-1.86" x2="6.985" y2="-1.86" width="0.127" layer="51"/>
+<wire x1="6.985" y1="-1.86" x2="6.985" y2="14.02" width="0.127" layer="21"/>
+<wire x1="-6.985" y1="14.02" x2="-6.985" y2="-1.86" width="0.127" layer="21"/>
+<pad name="2" x="-0.635" y="1.27" drill="0.9"/>
+<pad name="4" x="1.905" y="1.27" drill="0.9"/>
+<pad name="3" x="0.635" y="-1.27" drill="0.9"/>
+<pad name="1" x="-1.905" y="-1.27" drill="0.9"/>
+<text x="-3.74" y="-1.105" size="1.27" layer="51">1</text>
+<text x="3.17" y="0.535" size="1.27" layer="51">4</text>
+<text x="-2.69" y="15.575" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.025" y="-4.95" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="-3.81" y="7.62" drill="3.25"/>
+<hole x="3.81" y="7.62" drill="3.25"/>
+<wire x1="-6.985" y1="14.02" x2="6.985" y2="14.02" width="0.127" layer="21"/>
+<wire x1="-2.71" y1="-1.86" x2="-6.985" y2="-1.86" width="0.127" layer="21"/>
+<wire x1="1.556" y1="-1.86" x2="6.985" y2="-1.86" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-7.235" y="-2.5"/>
+<vertex x="7.235" y="-2.5"/>
+<vertex x="7.235" y="14.25"/>
+<vertex x="-7.235" y="14.25"/>
+</polygon>
+<text x="-3.74" y="-1.105" size="1.27" layer="21">1</text>
+</package>
 </packages>
 <symbols>
 <symbol name="2X2">
@@ -8418,6 +8444,38 @@ Copyright: Würth Elektronik</description>
 <pin name="2" x="-10.16" y="0" visible="pad" length="middle" direction="pas"/>
 <pin name="3" x="-10.16" y="2.54" visible="pad" length="middle" direction="pas"/>
 <pin name="4" x="-10.16" y="5.08" visible="pad" length="middle" direction="pas"/>
+<wire x1="-3.48" y1="5.71" x2="-3.48" y2="2.71" width="0.254" layer="94"/>
+<wire x1="-3.48" y1="2.71" x2="-3.48" y2="1.71" width="0.254" layer="94"/>
+<wire x1="-3.48" y1="1.71" x2="-3.48" y2="0.71" width="0.254" layer="94"/>
+<wire x1="-3.48" y1="0.71" x2="-3.48" y2="-0.29" width="0.254" layer="94"/>
+<wire x1="-3.48" y1="-0.29" x2="-3.48" y2="-3.29" width="0.254" layer="94"/>
+<wire x1="-3.48" y1="-3.29" x2="2.02" y2="-3.29" width="0.254" layer="94"/>
+<wire x1="-3.48" y1="5.71" x2="2.02" y2="5.71" width="0.254" layer="94"/>
+<wire x1="2.02" y1="5.71" x2="2.02" y2="4.21" width="0.254" layer="94"/>
+<wire x1="2.02" y1="-3.29" x2="2.02" y2="-1.79" width="0.254" layer="94"/>
+<wire x1="2.02" y1="4.21" x2="3.02" y2="4.21" width="0.254" layer="94"/>
+<wire x1="3.02" y1="4.21" x2="3.02" y2="2.71" width="0.254" layer="94"/>
+<wire x1="3.02" y1="2.71" x2="4.02" y2="2.71" width="0.254" layer="94"/>
+<wire x1="2.02" y1="-1.79" x2="3.02" y2="-1.79" width="0.254" layer="94"/>
+<wire x1="3.02" y1="-1.79" x2="3.02" y2="-0.29" width="0.254" layer="94"/>
+<wire x1="3.02" y1="-0.29" x2="4.02" y2="-0.29" width="0.254" layer="94"/>
+<wire x1="4.02" y1="-0.29" x2="4.02" y2="2.71" width="0.254" layer="94"/>
+<wire x1="-3.48" y1="2.71" x2="-2.98" y2="2.71" width="0.254" layer="94"/>
+<wire x1="-3.48" y1="1.71" x2="-2.98" y2="1.71" width="0.254" layer="94"/>
+<wire x1="-3.48" y1="0.71" x2="-2.98" y2="0.71" width="0.254" layer="94"/>
+<wire x1="-3.48" y1="-0.29" x2="-2.98" y2="-0.29" width="0.254" layer="94"/>
+</symbol>
+<symbol name="2X2-1">
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-4.572" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.334" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="10.16" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="10.16" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="3" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="4" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
 <wire x1="-3.48" y1="5.71" x2="-3.48" y2="2.71" width="0.254" layer="94"/>
 <wire x1="-3.48" y1="2.71" x2="-3.48" y2="1.71" width="0.254" layer="94"/>
 <wire x1="-3.48" y1="1.71" x2="-3.48" y2="0.71" width="0.254" layer="94"/>
@@ -8458,6 +8516,30 @@ Created 2014-07-10, Karrer Zheng&lt;br&gt;
 <connect gate="G$1" pin="2" pad="3"/>
 <connect gate="G$1" pin="3" pad="2"/>
 <connect gate="G$1" pin="4" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="615004144021" prefix="J" uservalue="yes">
+<description>&lt;b&gt;WR-MJ Vertical Plastic 4P4C Modular Jack With Ears, 4 pins&lt;/b&gt;=&gt;Code : Con_I-O_MJ-V_Plastic_615004144021
+&lt;br&gt;&lt;a href="http://katalog.we-online.de/media/images/eican/Con_I-O_MJ-V_Plastic_615004144021_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="http://katalog.we-online.de/media/thumbs2/eican/thb_Con_I-O_MJ-V_Plastic_615004144021_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+&lt;p&gt;Details see: &lt;a href="http://katalog.we-online.de/en/em/MJ_VERTICAL_PLASTIC_4P4C_W_EARS"&gt;http://katalog.we-online.de/en/em/MJ_VERTICAL_PLASTIC_4P4C_W_EARS&lt;/a&gt;
+Created 2014-07-10, Karrer Zheng&lt;br&gt;
+2014 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="2X2-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="615004144021">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14016,6 +14098,7 @@ erstellt von:  Hm</description>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R1206" value="560R"/>
 <part name="P+18" library="supply1" deviceset="VCC" device=""/>
 <part name="U$5" library="!!!Hesch Automation Frame!!!" deviceset="HESCH(C)DINA3" device=""/>
+<part name="J2" library="InputOutputIO (rev18b)" deviceset="615004144021" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14172,6 +14255,7 @@ erstellt von:  Hm</description>
 <instance part="R13" gate="G$1" x="180.34" y="154.94" rot="R90"/>
 <instance part="P+18" gate="VCC" x="180.34" y="165.1"/>
 <instance part="U$5" gate="G$1" x="0" y="0"/>
+<instance part="J2" gate="G$1" x="124.46" y="111.76" rot="R270"/>
 </instances>
 <busses>
 </busses>
